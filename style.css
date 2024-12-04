@@ -1,0 +1,87 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.wrapper-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-bottom-left h5{
+    font-weight: 500;
+    font-size: 12px;
+    color: #666; /* Texto gris */
+}
+
+.wrapper-bottom-right{
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaciado entre íconos */
+}
+
+.social-icons {
+    display: flex;
+    gap: 4px; /* Espaciado entre íconos */
+}
+
+.social-icons a img{
+    width: 24px;
+    height: 24px;
+}
+/*Parte de Arriba*/
+
+.wrapper-top {
+    display: flex;
+    justify-content: space-between; /* Espaciado uniforme entre el logo y las columnas */
+    align-items: flex-start; /* Alinea el contenido verticalmente al inicio */
+    padding: 20px 0; /* Espaciado superior e inferior */
+}
+
+.wrapper-top-logo img {
+    max-width: 100px; /* Ajusta el tamaño del logo */
+}
+
+.wrapper-top-nav {
+    display: flex;
+    justify-content: space-around; /* Espaciado uniforme entre las columnas */
+    align-items: flex-start; /* Alinea verticalmente al inicio */
+    align-content: center;
+    gap: 20px; /* Espaciado entre las columnas */
+    flex: 1; /* Permite que ocupe todo el espacio disponible junto al logo */
+}
+
+.wrapper-top-nav nav {
+    align-content: center;
+    flex: 0 0 auto; /* Evita que las columnas se expandan automáticamente */
+    text-align: left; /* Alinea el texto de las columnas a la izquierda */
+    width: 200px; /* Fija un ancho uniforme para cada columna */
+}
+
+.wrapper-top-nav h3 {
+    font-weight: bold;
+    font-size: 16px; /* Tamaño destacado para los títulos */
+    margin-bottom: 10px; /* Espaciado entre el título y el contenido */
+}
+
+.wrapper-top-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-top-nav li {
+    list-style: none; /* Elimina los puntos de lista */
+    font-size: 14px; /* Tamaño de fuente */
+    margin: 10px 0; /* Espaciado entre los elementos de la lista */
+}
+
+.wrapper-top-nav img {
+    align-content: center;
+    width: 16px;
+    height: 16px;
+}
+
+.secondary {
+    color: #999; /* Color gris para el texto secundario */
+}
