@@ -41,6 +41,7 @@
 }
 
 .wrapper-top-logo img {
+    margin-top: 30px;
     max-width: 100px; /* Ajusta el tamaño del logo */
 }
 
@@ -62,7 +63,7 @@
 
 .wrapper-top-nav h3 {
     font-weight: bold;
-    font-size: 16px; /* Tamaño destacado para los títulos */
+    font-size: 24px; /* Tamaño destacado para los títulos */
     margin-bottom: 10px; /* Espaciado entre el título y el contenido */
 }
 
@@ -73,7 +74,7 @@
 
 .wrapper-top-nav li {
     list-style: none; /* Elimina los puntos de lista */
-    font-size: 14px; /* Tamaño de fuente */
+    font-size: 16px; /* Tamaño de fuente */
     margin: 10px 0; /* Espaciado entre los elementos de la lista */
 }
 
